@@ -221,3 +221,87 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: #cc5c00;
 }
+
+@media only screen and (max-width: 1080px) {
+  /* Estilos para el encabezado */
+  header {
+    padding: 1rem;
+  }
+  
+  /* Estilos para la barra de navegación */
+  nav {
+    margin-left: 0;
+  }
+  
+  nav ul {
+    display: none;
+  }
+  
+  nav li {
+    display: block;
+    margin: 0 0 1rem 0;
+  }
+  
+  nav a {
+    margin: 0;
+    padding: 0.5rem;
+    border: 2px solid #96550a;
+    border-radius: 5px;
+    color: #96550a;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    background-color: #96550a;
+    color: #fff;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    display: block;
+    margin: 0;
+    padding: 0.5rem;
+  }
+  
+  .container {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section1, .section2, .section3, .section4 {
+    margin: 0;
+    padding: 0.5rem;
+    width: 100%;
+    grid-column: unset;
+    grid-row: unset;
+  }
+  
+  .section4 {
+    display: block;
+  }
+  
+  .section4 img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    order: unset;
+  }
+  
+  .section4-content {
+    display: block;
+  }
+  
+  /* Estilos para el formulario de contacto */
+  form {
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+  }
+}
